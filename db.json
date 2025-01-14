@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "7341",
+      "email": "admin2@gmail.com",
+      "password": "Admin@112233",
+      "name": "Muhammad Nur Kholik",
+      "photoUrl": "blob:http://localhost:5173/69137b05-39ec-4d47-a182-29980e73d876"
+    },
+    {
+      "id": "cbb2",
+      "email": "admin@gmail.com",
+      "password": "Admin@112233",
+      "name": "Muhammad Nur Kholik",
+      "photoUrl": "blob:http://localhost:5173/650d003a-62c7-4340-b0c5-e152a6c3a7b2"
+    }
+  ]
+}
