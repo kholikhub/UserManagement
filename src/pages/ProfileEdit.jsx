@@ -20,7 +20,6 @@ function ProfileEdit() {
   });
 
   useEffect(() => {
-    // Ambil data dari localStorage
     const savedProfile = JSON.parse(localStorage.getItem("profileData"));
     if (savedProfile) {
       setTempProfile(savedProfile);
@@ -34,9 +33,7 @@ function ProfileEdit() {
 
   const handleUpdateProfile = (e) => {
     e.preventDefault();
-    // Simpan data ke localStorage
     localStorage.setItem("profileData", JSON.stringify(tempProfile));
-    // Navigasi kembali ke halaman utama
     navigate("/");
   };
 

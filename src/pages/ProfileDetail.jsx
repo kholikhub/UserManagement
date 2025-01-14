@@ -19,7 +19,6 @@ function ProfileDetail() {
   });
 
   useEffect(() => {
-    // Ambil data dari localStorage
     const savedProfile = JSON.parse(localStorage.getItem("profileData"));
     if (savedProfile) {
       setProfile(savedProfile);
@@ -41,7 +40,6 @@ function ProfileDetail() {
       {/* Main Content */}
       <main className="flex-1">
         <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 sm:grid-cols-3 gap-8">
-          {/* Left Section: Profile Photo & Basic Info */}
           <div className="col-span-1 flex flex-col items-center bg-white p-6 rounded-xl shadow-lg">
             <img
               src={profile.profilePhoto || "https://via.placeholder.com/150"}
