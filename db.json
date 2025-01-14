@@ -13,6 +13,18 @@
       "password": "Admin@112233",
       "name": "Muhammad Nur Kholik",
       "photoUrl": "blob:http://localhost:5173/650d003a-62c7-4340-b0c5-e152a6c3a7b2"
+    },
+    {
+      "id": "1784",
+      "email": "admin@gmail.com",
+      "password": "123123123",
+      "name": "Muhammad Nur Kholik",
+      "photoUrl": "blob:https://loquacious-cheesecake-c6ea62.netlify.app/86924f29-4352-4034-a6c3-1d6666ec3d5b"
+    },
+    {
+      "id": "18b5",
+      "email": "admin@gmail.com",
+      "password": "123123123"
     }
   ]
 }
