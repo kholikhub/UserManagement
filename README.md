@@ -6,7 +6,6 @@ This is a project bootstrapped with [Vite](https://vitejs.dev/) and [React](http
 
 First, run the development server:
 
-```bash
 npm run dev
 # or
 yarn dev
@@ -15,6 +14,13 @@ pnpm dev
 # or
 bun dev
 
+##  Starting server json
+
+```bash
+Run the db.json
+
+json-server --watch db.json --port 3001
+ 
 
 Open http://localhost:5173 with your browser to see the result.
 
