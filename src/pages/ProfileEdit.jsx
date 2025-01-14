@@ -5,18 +5,18 @@ function ProfileEdit() {
   const navigate = useNavigate();
 
   const [tempProfile, setTempProfile] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    city: "",
-    state: "",
-    postcode: "",
-    country: "",
-    company: "",
-    jobTitle: "",
-    profilePhoto: "",
-    coverPhoto: "",
+    firstName: "Muhammad Nur",
+    lastName: "Kholik",
+    email: "kholik@gmail.com",
+    phone: "+6285156000994",
+    city: "kraksaan",
+    state: "jawa timur",
+    postcode: "67282",
+    country: "indonesia",
+    company: "PT. Kholik",
+    jobTitle: "frontend development",
+    profilePhoto: "https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png",
+    coverPhoto: "https://th.bing.com/th/id/OIP.Vuao2YZY4K7Suqo3cqMmjQHaEK?rs=1&pid=ImgDetMain",
   });
 
   useEffect(() => {
