@@ -6,22 +6,21 @@ This is a project bootstrapped with [Vite](https://vitejs.dev/) and [React](http
 
 First, run the development server:
 
-```bash
 npm run dev
-# or
+### or
 yarn dev
-# or
+### or
 pnpm dev
-# or
+### or
 bun dev
 
 ##  Starting server json
 
-Run the db.json
-
+For save and use data user please run db.json
+## run in terminal
 json-server --watch db.json --port 3001
  
-
+```bash
 Open http://localhost:5173 with your browser to see the result.
 
 You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
